@@ -38,7 +38,7 @@ ground_truth = [
     {
         "case_id": "GT-005",
         "scenario": "Potential duplicate document",
-        "customer_id": "",
+        "customer_id": "CUS-000001;CUS-000002",
         "expected_issue": "Matching document details exist across customers",
         "severity": "MEDIUM"
     },
@@ -47,6 +47,20 @@ ground_truth = [
         "scenario": "Overdue review",
         "customer_id": "",
         "expected_issue": "Open review has a due date before the generation date",
+        "severity": "HIGH"
+    },
+    {
+        "case_id": "GT-007",
+        "scenario": "Document holder name mismatch",
+        "customer_id": "CUS-000004",
+        "expected_issue": "Document holder name does not match the customer's full name",
+        "severity": "HIGH"
+    },
+    {
+        "case_id": "GT-008",
+        "scenario": "Business missing beneficial owners",
+        "customer_id": "CUS-000016",
+        "expected_issue": "Business customer has no beneficial ownership records",
         "severity": "HIGH"
     }
 ]

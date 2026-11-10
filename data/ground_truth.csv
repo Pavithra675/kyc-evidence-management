@@ -3,5 +3,7 @@ GT-001,Expired document marked verified,CUS-000001,Document is expired but marke
 GT-002,Approved customer missing mandatory evidence,CUS-000003,Approved customer has no supporting documents,CRITICAL
 GT-003,Ownership exceeds 100 percent,CUS-000008,Total beneficial ownership exceeds 100%,HIGH
 GT-004,Closed review without resolution,,Review is CLOSED but resolution is missing,MEDIUM
-GT-005,Potential duplicate document,,Matching document details exist across customers,MEDIUM
+GT-005,Potential duplicate document,CUS-000001;CUS-000002,Matching document details exist across customers,MEDIUM
 GT-006,Overdue review,,Open review has a due date before the generation date,HIGH
+GT-007,Document holder name mismatch,CUS-000004,Document holder name does not match the customer's full name,HIGH
+GT-008,Business missing beneficial owners,CUS-000016,Business customer has no beneficial ownership records,HIGH

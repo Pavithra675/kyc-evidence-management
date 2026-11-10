@@ -146,16 +146,20 @@ python -m pytest -q
 
 ## 11. Ground Truth Scenarios
 
-The ground-truth dataset contains six known scenarios:
+The ground-truth dataset contains eight intentional data-quality scenarios:
 
-- Expired document marked as verified.
-- Approved customer missing mandatory evidence.
-- Beneficial ownership exceeding 100%.
-- Closed review without resolution.
-- Potential duplicate documents.
-- Overdue review case.
+1. Expired document marked as verified.
+2. Approved customer missing mandatory evidence.
+3. Beneficial ownership exceeding 100%.
+4. Closed review without resolution.
+5. Potential duplicate documents.
+6. Overdue review case.
+7. Document holder name mismatch.
+8. Business missing beneficial owners.
 
 These scenarios help verify that the validation logic identifies known data-quality issues.
+
+The ground-truth files are available in `data/ground_truth.csv` and `data/ground_truth.json`.
 
 ## 12. Reproducibility
 

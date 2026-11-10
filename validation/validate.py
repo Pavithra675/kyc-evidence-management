@@ -1,10 +1,10 @@
+
 from datetime import date
 
 from app.database import SessionLocal
 from app.models import (
     Customer,
     Document,
-    Verification,
     ReviewCase,
     BeneficialOwner,
     KYCRequirement
@@ -29,11 +29,11 @@ def validate_database():
         print("\n1. Customer count:", len(customers))
 
         # Check 2: Documents linked to customers
+        customer_ids = {c.customer_id for c in customers}
+
         invalid_documents = [
             d for d in documents
-            if d.customer_id not in {
-                c.customer_id for c in customers
-            }
+            if d.customer_id not in customer_ids
         ]
 
         print("2. Documents without valid customers:",
@@ -50,7 +50,7 @@ def validate_database():
         print("3. Expired verified documents:",
               len(expired_verified))
 
-                # Check 4: Approved customers missing mandatory evidence
+        # Check 4: Approved customers missing mandatory evidence
         requirements = session.query(KYCRequirement).filter_by(
             is_mandatory=True
         ).all()
@@ -84,7 +84,7 @@ def validate_database():
 
         print("4. Approved customers missing mandatory evidence:",
               len(missing_evidence))
-              
+
         # Check 5: Ownership above 100%
         ownership_totals = {}
 
@@ -143,6 +143,39 @@ def validate_database():
 
         print("8. Overdue open reviews:",
               len(overdue_reviews))
+
+        # Check 9: Document holder name mismatch
+        customer_names = {
+            c.customer_id: c.full_name
+            for c in customers
+        }
+
+        name_mismatches = [
+            d for d in documents
+            if d.customer_id in customer_names
+            and d.holder_name != customer_names[d.customer_id]
+        ]
+
+        print("9. Document holder name mismatches:",
+              len(name_mismatches))
+
+        # Check 10: Businesses missing beneficial owners
+        business_customers = [
+            c for c in customers
+            if c.customer_type_id == "TYPE-002"
+        ]
+
+        businesses_with_owners = {
+            owner.customer_id for owner in owners
+        }
+
+        missing_owners = [
+            c for c in business_customers
+            if c.customer_id not in businesses_with_owners
+        ]
+
+        print("10. Businesses missing beneficial owners:",
+              len(missing_owners))
 
         print("\nValidation completed!")
 

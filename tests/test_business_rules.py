@@ -1,3 +1,4 @@
+
 from datetime import date
 
 import pytest
@@ -114,3 +115,56 @@ def test_overdue_review_exists(session):
         r.due_date < TODAY and r.review_status != "CLOSED"
         for r in reviews
     )
+
+
+def test_document_holder_name_mismatch_exists(session):
+    customers = {
+        c.customer_id: f"{c.first_name} {c.last_name}".strip()
+        for c in session.query(Customer).all()
+    }
+
+    documents = session.query(Document).all()
+
+    assert any(
+        d.holder_name
+        and d.customer_id in customers
+        and d.holder_name.strip().casefold()
+        != customers[d.customer_id].casefold()
+        for d in documents
+    )
+
+
+
+def test_document_holder_name_mismatch_exists(session):
+    customers = {
+        c.customer_id: c.full_name.strip()
+        for c in session.query(Customer).all()
+    }
+
+    documents = session.query(Document).all()
+
+    assert any(
+        d.holder_name
+        and d.customer_id in customers
+        and d.holder_name.strip().casefold()
+        != customers[d.customer_id].casefold()
+        for d in documents
+    )
+
+
+def test_business_missing_beneficial_owners_exists(session):
+    businesses = session.query(Customer).filter_by(
+        customer_type_id="TYPE-002"
+    ).all()
+
+    owners = session.query(BeneficialOwner).all()
+
+    customers_with_owners = {
+        owner.customer_id for owner in owners
+    }
+
+    assert any(
+        business.customer_id not in customers_with_owners
+        for business in businesses
+    )
+

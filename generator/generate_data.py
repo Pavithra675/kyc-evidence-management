@@ -220,6 +220,9 @@ def generate_documents(session, total_documents):
                 holder_name
             ) = duplicate_template
 
+        elif customer.customer_id == "CUS-000004" and doc_number == 1:
+            holder_name = "Incorrect Test Name"
+
         document_id = (
             f"DOC-{customer.customer_id}-{doc_number:03d}"
         )
@@ -291,6 +294,10 @@ def generate_beneficial_owners(session):
     counter = 1
 
     for business in businesses:
+
+        # Edge case: Business has no beneficial ownership records.
+        if business.customer_id == "CUS-000016":
+            continue
 
         # Edge case: Ownership exceeds 100%.
         first_percentage = (
