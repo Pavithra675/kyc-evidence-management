@@ -1,0 +1,65 @@
+[
+    {
+        "requirement_id": "KYC-000001",
+        "customer_type_id": "TYPE-001",
+        "document_type": "IDENTITY",
+        "risk_level": "LOW",
+        "is_mandatory": true
+    },
+    {
+        "requirement_id": "KYC-000002",
+        "customer_type_id": "TYPE-001",
+        "document_type": "ADDRESS",
+        "risk_level": "LOW",
+        "is_mandatory": true
+    },
+    {
+        "requirement_id": "KYC-000003",
+        "customer_type_id": "TYPE-001",
+        "document_type": "INCOME",
+        "risk_level": "MEDIUM",
+        "is_mandatory": true
+    },
+    {
+        "requirement_id": "KYC-000004",
+        "customer_type_id": "TYPE-001",
+        "document_type": "SOURCE_OF_FUNDS",
+        "risk_level": "HIGH",
+        "is_mandatory": true
+    },
+    {
+        "requirement_id": "KYC-000005",
+        "customer_type_id": "TYPE-002",
+        "document_type": "INCORPORATION",
+        "risk_level": "LOW",
+        "is_mandatory": true
+    },
+    {
+        "requirement_id": "KYC-000006",
+        "customer_type_id": "TYPE-002",
+        "document_type": "ADDRESS",
+        "risk_level": "LOW",
+        "is_mandatory": true
+    },
+    {
+        "requirement_id": "KYC-000007",
+        "customer_type_id": "TYPE-002",
+        "document_type": "OWNERSHIP",
+        "risk_level": "LOW",
+        "is_mandatory": true
+    },
+    {
+        "requirement_id": "KYC-000008",
+        "customer_type_id": "TYPE-002",
+        "document_type": "DIRECTORS",
+        "risk_level": "MEDIUM",
+        "is_mandatory": true
+    },
+    {
+        "requirement_id": "KYC-000009",
+        "customer_type_id": "TYPE-002",
+        "document_type": "SOURCE_OF_FUNDS",
+        "risk_level": "HIGH",
+        "is_mandatory": true
+    }
+]

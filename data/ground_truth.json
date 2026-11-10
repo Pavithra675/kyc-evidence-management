@@ -1,0 +1,44 @@
+[
+    {
+        "case_id": "GT-001",
+        "scenario": "Expired document marked verified",
+        "customer_id": "CUS-000001",
+        "expected_issue": "Document is expired but marked VERIFIED",
+        "severity": "HIGH"
+    },
+    {
+        "case_id": "GT-002",
+        "scenario": "Approved customer missing mandatory evidence",
+        "customer_id": "CUS-000003",
+        "expected_issue": "Approved customer has no supporting documents",
+        "severity": "CRITICAL"
+    },
+    {
+        "case_id": "GT-003",
+        "scenario": "Ownership exceeds 100 percent",
+        "customer_id": "CUS-000008",
+        "expected_issue": "Total beneficial ownership exceeds 100%",
+        "severity": "HIGH"
+    },
+    {
+        "case_id": "GT-004",
+        "scenario": "Closed review without resolution",
+        "customer_id": "",
+        "expected_issue": "Review is CLOSED but resolution is missing",
+        "severity": "MEDIUM"
+    },
+    {
+        "case_id": "GT-005",
+        "scenario": "Potential duplicate document",
+        "customer_id": "",
+        "expected_issue": "Matching document details exist across customers",
+        "severity": "MEDIUM"
+    },
+    {
+        "case_id": "GT-006",
+        "scenario": "Overdue review",
+        "customer_id": "",
+        "expected_issue": "Open review has a due date before the generation date",
+        "severity": "HIGH"
+    }
+]

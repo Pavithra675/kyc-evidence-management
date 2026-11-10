@@ -1,0 +1,10 @@
+[
+    {
+        "customer_type_id": "TYPE-001",
+        "type_name": "Individual"
+    },
+    {
+        "customer_type_id": "TYPE-002",
+        "type_name": "Business"
+    }
+]
