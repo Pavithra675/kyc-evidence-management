@@ -10,7 +10,7 @@
 - Verifications: 20,000
 - Review cases: 3,000
 - Beneficial owners: 1,998
-- Alerts: 665
+- Alerts: 718
 - Audit events: 28,000
 
 ## 2. Database Validation Results
@@ -51,7 +51,22 @@ Result: ALL TESTS PASSED
 - SQL export: Successful
 - Ground truth CSV and JSON: Successful
 
-## 6. Conclusion
+## 6. API Feature Testing
+
+### KYC Completeness
+- Endpoint: GET /customers/{customer_id}/kyc-completeness
+- Customer-specific mandatory evidence checked.
+- Missing and expired evidence scenarios tested.
+
+### Advance Document Expiry Alerts
+- Endpoint: POST /alerts/check-expiring-documents
+- Warning period: 30 days.
+- Documents checked: 53.
+- First run: 53 alerts created.
+- Second run: 0 duplicate alerts created.
+- Result: Successful.
+
+## 7. Conclusion
 
 The KYC Evidence and Review Management System successfully generated and exported the full synthetic dataset.
 

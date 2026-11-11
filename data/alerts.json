@@ -5318,5 +5318,429 @@
         "alert_message": "Review REV-002996 is overdue.",
         "created_at": "2026-11-10 00:00:00",
         "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000666",
+        "customer_id": "CUS-000616",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000616-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.530703",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000667",
+        "customer_id": "CUS-001010",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001010-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000668",
+        "customer_id": "CUS-001331",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001331-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000669",
+        "customer_id": "CUS-001758",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001758-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000670",
+        "customer_id": "CUS-001874",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001874-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000671",
+        "customer_id": "CUS-002138",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-002138-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000672",
+        "customer_id": "CUS-002269",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-002269-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000673",
+        "customer_id": "CUS-002436",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-002436-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000674",
+        "customer_id": "CUS-002705",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-002705-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000675",
+        "customer_id": "CUS-002706",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-002706-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000676",
+        "customer_id": "CUS-003337",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-003337-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000677",
+        "customer_id": "CUS-003490",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-003490-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000678",
+        "customer_id": "CUS-004089",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-004089-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000679",
+        "customer_id": "CUS-004222",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-004222-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000680",
+        "customer_id": "CUS-004603",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-004603-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000681",
+        "customer_id": "CUS-004987",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-004987-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000682",
+        "customer_id": "CUS-005141",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-005141-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000683",
+        "customer_id": "CUS-005496",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-005496-001 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000684",
+        "customer_id": "CUS-005618",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-005618-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000685",
+        "customer_id": "CUS-006107",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-006107-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000686",
+        "customer_id": "CUS-007949",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-007949-001 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000687",
+        "customer_id": "CUS-000035",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000035-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000688",
+        "customer_id": "CUS-000140",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000140-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.541676",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000689",
+        "customer_id": "CUS-000143",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000143-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000690",
+        "customer_id": "CUS-000582",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000582-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000691",
+        "customer_id": "CUS-000992",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000992-002 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000692",
+        "customer_id": "CUS-001079",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001079-002 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000693",
+        "customer_id": "CUS-001332",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001332-002 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000694",
+        "customer_id": "CUS-001706",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001706-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000695",
+        "customer_id": "CUS-002141",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-002141-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000696",
+        "customer_id": "CUS-003109",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-003109-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000697",
+        "customer_id": "CUS-003323",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-003323-002 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000698",
+        "customer_id": "CUS-004086",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-004086-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000699",
+        "customer_id": "CUS-004737",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-004737-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000700",
+        "customer_id": "CUS-005804",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-005804-002 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000701",
+        "customer_id": "CUS-005984",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-005984-002 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000702",
+        "customer_id": "CUS-006339",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-006339-002 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000703",
+        "customer_id": "CUS-006385",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-006385-002 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000704",
+        "customer_id": "CUS-006845",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-006845-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000705",
+        "customer_id": "CUS-007016",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-007016-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000706",
+        "customer_id": "CUS-007781",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-007781-002 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000707",
+        "customer_id": "CUS-000307",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000307-003 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000708",
+        "customer_id": "CUS-000384",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000384-003 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000709",
+        "customer_id": "CUS-000455",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000455-003 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000710",
+        "customer_id": "CUS-000943",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-000943-003 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000711",
+        "customer_id": "CUS-001029",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001029-003 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000712",
+        "customer_id": "CUS-001075",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001075-003 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000713",
+        "customer_id": "CUS-001451",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001451-003 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000714",
+        "customer_id": "CUS-001473",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001473-003 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000715",
+        "customer_id": "CUS-001570",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001570-003 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000716",
+        "customer_id": "CUS-001671",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001671-003 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000717",
+        "customer_id": "CUS-001957",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-001957-003 will expire on 2026-12-10.",
+        "created_at": "2026-11-11 10:17:28.542671",
+        "alert_status": "OPEN"
+    },
+    {
+        "alert_id": "ALT-000718",
+        "customer_id": "CUS-002143",
+        "alert_type": "DOCUMENT_EXPIRING_SOON",
+        "alert_message": "Document DOC-CUS-002143-003 will expire on 2026-12-11.",
+        "created_at": "2026-11-11 10:17:28.543676",
+        "alert_status": "OPEN"
     }
 ]

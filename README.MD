@@ -175,6 +175,25 @@ Database file: `kyc_management.db`
 
 The database contains customer, document, verification, risk, review, ownership, alert, and audit records.
 
-## 14. Disclaimer
+## 14. Advance Document Expiry Alerts
+
+The API supports configurable advance warnings for documents approaching their expiry date.
+
+**Endpoint:** `POST /alerts/check-expiring-documents`
+
+**Parameter:**
+- `warning_days`: Number of days before expiry to check. Defaults to 30 and accepts values from 1 to 365.
+
+**How it works:**
+- Finds documents expiring within the configured warning period.
+- Creates `DOCUMENT_EXPIRING_SOON` alerts.
+- Assigns unique alert IDs.
+- Prevents duplicate alerts when the same check is run again.
+
+**Example:** Set `warning_days=30` to identify documents expiring within the next 30 days.
+
+The endpoint was tested with 53 matching documents. It created 53 alerts on the first run and 0 duplicate alerts on the second run.
+
+## 15. Disclaimer
 
 All generated records are synthetic and intended only for development, testing, and demonstration purposes. No real customer or personally identifiable information is used.
